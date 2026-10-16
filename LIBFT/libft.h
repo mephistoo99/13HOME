@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 13:06:02 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/15 18:10:17 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/15 19:05:58 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,8 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
+char	*ft_strnstr(const char *src, const char *tgt, size_t len);
+int		ft_atoi(const char *s);
+void	*ft_calloc(size_t num, size_t size);
 
 #endif
