@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 13:06:02 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/15 19:05:58 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/17 12:19:40 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <stdlib.h>
 
-size_t	ft_strlen(char *s);
+size_t	ft_strlen(const char *s);
 int		ft_isprint(int c);
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
@@ -36,5 +36,9 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char	*ft_strnstr(const char *src, const char *tgt, size_t len);
 int		ft_atoi(const char *s);
 void	*ft_calloc(size_t num, size_t size);
+char	*ft_strdup(const char *s);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 16:01:45 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/15 16:40:22 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/16 11:01:37 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	if (!dst || !src)
 		return (0);
 	dest_len = ft_strlen(dst);
-	src_len = ft_strlen((char *)src);
+	src_len = ft_strlen(src);
 	if (size > dest_len)
 		sum = dest_len + src_len;
 	else

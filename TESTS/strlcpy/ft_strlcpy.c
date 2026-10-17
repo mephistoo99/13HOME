@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 10:59:22 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/14 11:21:28 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/16 11:01:50 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,5 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		}
 		dst[i] = '\0';
 	}
-	return (ft_strlen((char *)src));
+	return (ft_strlen(src));
 }

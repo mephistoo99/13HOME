@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 18:22:13 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/15 18:42:49 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/16 11:02:39 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strnstr(const char *src, const char *tgt, size_t len)
 		return (NULL);
 	if (!*tgt)
 		return ((char *)src);
-	t_len = ft_strlen((char *)tgt);
+	t_len = ft_strlen(tgt);
 	i = 0;
 	while (src[i] && i < len)
 	{
