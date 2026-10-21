@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 17:59:41 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/20 18:00:09 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/21 17:19:31 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_putendl_fd(char const *s, int fd)
 {
 	size_t	i;
 
+	if (!s || fd < 0)
+		return ;
 	i = 0;
 	while (s[i])
 		i++;
