@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 13:06:02 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/24 15:43:47 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/24 16:01:08 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,6 @@ t_list	*ft_lstlast(t_list	*lst);
 void	ft_lstadd_back(t_list	**lst, t_list	*new);
 void	ft_lstdelone(t_list	*lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
+void	ft_lstiter(t_list	*lst, void (*f)(void *));
 
 #endif
