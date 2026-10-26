@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 17:18:01 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/15 17:23:08 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/26 17:48:04 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_bzero(void	*s, size_t	n)
 	char	*ptr;
 
 	if (!s)
-		return (0);
+		return ;
 	ptr = s;
 	while (n-- > 0)
 	{
