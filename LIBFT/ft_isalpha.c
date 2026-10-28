@@ -6,11 +6,11 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 12:46:59 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/12 12:50:08 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/28 15:40:55 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(char s)
+int	ft_isalpha(int s)
 {
 	return ((s >= 'a' && s <= 'z') || (s >= 'A' && s <= 'Z'));
 }

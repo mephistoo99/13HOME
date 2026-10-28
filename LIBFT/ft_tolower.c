@@ -6,11 +6,11 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 17:23:37 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/15 17:24:00 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/28 15:45:17 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	ft_tolower(int c)
+int	ft_tolower(int c)
 {
 	if (c <= 'Z' && c >= 'A')
 		return (c += 32);

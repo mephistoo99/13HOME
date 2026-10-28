@@ -6,11 +6,11 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 16:47:57 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/15 16:55:37 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/10/28 15:45:03 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	ft_toupper(int c)
+int	ft_toupper(int c)
 {
 	if (c <= 'z' && c >= 'a')
 		return (c -= 32);
