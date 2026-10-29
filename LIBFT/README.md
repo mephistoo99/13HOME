@@ -46,6 +46,10 @@ To use `libft` in your own C projects:
   * *The Linux Programming Interface* by Michael Kerrisk
   * Linux Programmer's Manual (`man 3` pages for standard C library functions like `strlen`, `memcpy`, `atoi`, `strdup`)
   * [cppreference.com](https://en.cppreference.com/w/c) – C Reference Documentation
+* **Online Platforms & Developer Communities:**
+  * [GeeksforGeeks](https://www.geeksforgeeks.org/) – Tutorials and articles on C programming concepts, memory management, and data structures.
+  * [Stack Overflow](https://stackoverflow.com/) – Community Q&A for troubleshooting specific syntax errors, edge cases, and memory leaks.
+  * [Reddit](https://www.reddit.com/r/C_Programming/) (r/C_Programming) – Community discussions and insights on low-level programming best practices.
 * **Video Tutorials:**
   * [C Programming: Makefiles](https://www.youtube.com/watch?v=GExnnTaBELk) by Barry Brown – Guide covering compilation stages, object files, linking, and Makefile structure.
   * [The Memory Layout of a C Program | Data Structures in Embedded Systems](https://www.youtube.com/watch?v=FlkNgJXEyrc) by inpyjama – Breakdown of C program memory structure (Stack, Heap, BSS, Data, and Text segments).
