@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 13:02:51 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/16 11:00:01 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/11/02 19:25:59 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ size_t	ft_strlen(const char *s)
 	size_t	len;
 
 	len = 0;
-	if (!s)
-		return (0);
 	while (*s++)
 	{
 		len++;

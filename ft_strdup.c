@@ -6,7 +6,7 @@
 /*   By: mchaarou <mchaarou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 19:11:39 by mchaarou          #+#    #+#             */
-/*   Updated: 2026/10/16 11:09:27 by mchaarou         ###   ########.fr       */
+/*   Updated: 2026/11/02 19:19:36 by mchaarou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ char	*ft_strdup(const char *s)
 	char	*dup;
 	size_t	len;
 
-	if (s == NULL)
-		return (NULL);
 	len = ft_strlen(s) + 1;
 	dup = malloc(len);
 	if (dup != NULL)
